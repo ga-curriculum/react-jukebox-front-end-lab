@@ -42,4 +42,4 @@ You can choose between maintaining a single-page flow with components that appea
   - **CreateTrack** (route '/add-track')
   - **EditTrack** (route '/edit-track/:id')
 
-This lab offers you a chance to practice making design decisions based on user experience and functionality requirements. Whichever approach you choose, the key is to ensure that the application remains user-friendly and performs full crud functionality paired with the .
+This lab offers you a chance to practice making design decisions based on user experience and functionality requirements. Whichever approach you choose, the key is to ensure that the application remains user-friendly and performs full crud functionality paired with the Express API.
