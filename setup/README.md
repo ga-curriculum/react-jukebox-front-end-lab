@@ -14,7 +14,7 @@ Create a new Vite project for your React app:
 npm create vite@latest
 ```
 
-You'll be prompted to choose a project name. Name it `react-jukebox-lab`.
+You'll be prompted to choose a project name. Name it `react-jukebox-front-end-lab`.
 
 - Select a framework. Use the arrow keys to choose the `React` option and hit `Enter`.
 
@@ -23,7 +23,7 @@ You'll be prompted to choose a project name. Name it `react-jukebox-lab`.
 Navigate to your new project directory and install the necessary dependencies:
 
 ```bash
-cd react-jukebox-lab
+cd react-jukebox-front-end-lab
 npm i
 ```
 
@@ -104,12 +104,12 @@ git add .
 git commit -m "init commit"
 ```
 
-Make a new repository on [GitHub](https://github.com/) named react-jukebox-lab.
+Make a new repository on [GitHub](https://github.com/) named react-jukebox-front-end-lab.
 
 Link your local project to your remote GitHub repo:
 
 ```bash
-git remote add origin https://github.com/<github-username>/react-jukebox-lab.git
+git remote add origin https://github.com/<github-username>/react-jukebox-front-end-lab.git
 git push origin main
 ```
 
@@ -117,14 +117,14 @@ git push origin main
 
 ## Running the Express backend
 
-Before diving into our React app development, you'll need to ensure that the Express backend server is operational. This backend will handle requests from your React app. You will be using the back-end server you created in the [`Express API - Jukebox Lab`](https://git.generalassemb.ly/modular-curriculum-all-courses/express-api-jukebox-lab) lab as the API for this lesson.
+Before diving into our React app development, you'll need to ensure that the Express backend server is operational. This backend will handle requests from your React app. You will be using the back-end server you created in the [`Express API - Jukebox Back-End Lab`](https://git.generalassemb.ly/modular-curriculum-all-courses/express-api-jukebox-back-end-lab) lab as the API for this lesson.
 
 Follow these steps to set up the server:
 
-Open your Terminal application and navigate to your **`~/code/ga/labs/express-api-jukebox-lab`** directory:
+Open your Terminal application and navigate to your **`~/code/ga/labs/express-api-jukebox-back-end-lab`** directory:
 
 ```bash
-cd ~/code/ga/labs/express-api-jukebox-lab
+cd ~/code/ga/labs/express-api-jukebox-back-end-lab
 ```
 
 Once there, run your server with `nodemon`:
