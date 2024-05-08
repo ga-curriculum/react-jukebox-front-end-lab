@@ -12,12 +12,14 @@ The community center of Reactville is launching an exciting project—a public j
 
 By the end of this lab, students will have developed a frontend that interacts with a RESTful API, enabling users to perform create, read, update, and delete (CRUD) operations on "track" data. This lab provides practical application for consuming APIs with React.
 
+> This module requires an existing Express API for performing CRUD operations on the resource `tracks`.
+
 ## Prerequisites
 
 - Controlled Forms in React
 - Lifting State in React
 - Fetching Data in React
-- Express API - Jukebox Lab - This module requires an existing Express API for performing CRUD operations on the resource `tracks`.
+- Express API - Jukebox Back-End Lab 
 
 ## Time to complete
 
@@ -34,7 +36,7 @@ Estimated time to complete core lab exercise: **8 hours**
 
 ## Solution code
 
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/react-jukebox-lab-solution)
+🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/react-jukebox-front-end-lab-solution)
 
 ## Internal resources
 
