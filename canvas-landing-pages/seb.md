@@ -14,14 +14,7 @@ By the end of this lab, students will have developed a frontend that interacts w
 
 ## Prerequisites
 
-- Controlled Forms in React
-- Lifting State in React
-- Fetching Data in React
 - Express API - Jukebox Lab - This module requires an existing Express API for performing CRUD operations on the resource `tracks`.
-
-## Time to complete
-
-Estimated time to complete core lab exercise: **8 hours**
 
 ## Content
 
