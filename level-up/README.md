@@ -1,11 +1,11 @@
-# ![React Jukebox Lab - Level Up](./assets/hero.png)
-
+# ![React Jukebox Lab Front-End - Level Up](./assets/hero.png)
 
 ## Level Up: Enhance Your Jukebox
 
 Ready to take your Reactville Jukebox to the next level? As you've built a solid foundation for managing and displaying tracks, now you can enhance the user experience by integrating more interactive and visual elements. Consider adding the following features to your front-end application:
 
 ### Display Cover Art
+
 Show cover art for each track in the UI.
 
 - **Update the Track Model**: Ensure your back-end model includes a `coverArtUrl` attribute.
