@@ -1,13 +1,5 @@
 # ![Release Notes](../assets/release-notes.png)
 
-## Version 1.0 
+## Version 1.0
 
-### Release details
-
-#### Additions
-
-#### Changes
-
-#### Removals
-
-
+This is brand new lab content!

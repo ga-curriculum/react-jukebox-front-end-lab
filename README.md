@@ -1,4 +1,4 @@
-# ![React Jukebox Front-End Lab](./assets/tktk-hero.png)
+# ![React Jukebox Front-End Lab](./assets/hero.png)
 
 Welcome to Reactville, a constantly evolving virtual metropolis. Let's build this digital town together, one component at a time.
 
