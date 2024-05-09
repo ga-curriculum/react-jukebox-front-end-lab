@@ -1,4 +1,4 @@
-# ![React Jukebox Lab](./assets/tktk-hero.png)
+# ![React Jukebox Front-End Lab](./assets/tktk-hero.png)
 
 Welcome to Reactville, a constantly evolving virtual metropolis. Let's build this digital town together, one component at a time.
 
@@ -6,20 +6,20 @@ Welcome to Reactville, a constantly evolving virtual metropolis. Let's build thi
 
 ## About
 
-The community center of Reactville is launching an exciting project—a public jukebox! Your task is to help them build an interactive user interface where everyone can collaborate in managing the track library. Users will be able to add, update, and remove tracks, creating a dynamic playlist that all residents can enjoy at town events!
+The community center of Reactville is launching an exciting project—a public jukebox! Your task is to help them build an interactive user interface where everyone can collaborate to manage the track library. Users will be able to add, update, and remove tracks, creating a dynamic playlist that all residents can enjoy at town events!
 
 ![Solution UI](./assets/solution-ui.png)
 
-By the end of this lab, students will have developed a frontend that interacts with a RESTful API, enabling users to perform create, read, update, and delete (CRUD) operations on "track" data. This lab provides practical application for consuming APIs with React.
+By the end of this lab, students will have developed a frontend that interacts with a RESTful API, enabling users to perform create, read, update, and delete (CRUD) operations on "track" data. This lab provides a practical application for consuming an API with React.
 
-> This module requires an existing Express API for performing CRUD operations on the resource `tracks`.
+> This module requires an existing API to perform CRUD operations on a `track` resource.
 
 ## Prerequisites
 
 - Controlled Forms in React
 - Lifting State in React
 - Fetching Data in React
-- Express API - Jukebox Back-End Lab 
+- Express API - Jukebox Back-End Lab
 
 ## Time to complete
 
