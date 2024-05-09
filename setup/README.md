@@ -1,4 +1,4 @@
-# ![React Jukebox Lab - Setup](./assets/hero.png)
+# ![React Jukebox Lab Front-End - Setup](./assets/hero.png)
 
 ## Setup
 

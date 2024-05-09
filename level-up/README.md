@@ -20,7 +20,7 @@ Allow users to preview tracks by playing audio clips directly in the browser.
 
 - **Update the Track Model**: Include a `soundClipUrl` attribute in your back-end model if not already present.
 - **Modify the Track Form**: Ensure there is an input field in the form for users to add or update the URL of the audio clip.
-- **Audio Playback in UI**: Implement an audio player in the `TrackDetail` component that uses the HTML `<audio>` element to play the sound clip. 
+- **Audio Playback in UI**: Implement an audio player in the `TrackDetail` component that uses the HTML `<audio>` element to play the sound clip.
 
 Here's an example of how to integrate a basic audio player component in React:
 
