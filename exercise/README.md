@@ -28,15 +28,15 @@ You can choose between maintaining a single-page flow with components that appea
 
 - **App**
   - **TrackList**
-  - **TrackForm** (conditionally rendered based on user interaction)
-  - **NowPlaying** (conditionally rendered based on user selection)
+  - **TrackForm** (conditionally rendered)
+  - **NowPlaying** (conditionally rendered)
 
 ### React Router Style
 
 - **App**
   - **Home** (route: `/`)
     - **TrackList**
-    - **NowPlaying**
+    - **NowPlaying** (conditionally rendered)
   - **TrackForm** (route: `/add-track` AND `/edit-track/:trackId`)
 
 This lab offers you a chance to practice making design decisions based on user experience and functionality requirements. Whichever approach you choose, the key is ensuring the application remains user-friendly and performs full CRUD functionality paired with the Express API.
