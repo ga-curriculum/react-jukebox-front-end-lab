@@ -134,7 +134,7 @@ git push origin main
 
 ## Running the Express backend
 
-Before diving into our React app development, you'll need to ensure that the Express backend server is operational. This backend will handle requests from your React app. You will be using the back-end server you created in the [`Express API - Jukebox Back-End Lab`](https://git.generalassemb.ly/modular-curriculum-all-courses/express-api-jukebox-back-end-lab) lab as the API for this lesson.
+Before diving into our React app development, you'll need to ensure that the Express backend server is operational. This backend will handle requests from your React app. You will be using the back-end server you created in the `Express API - Jukebox Back-End Lab` lab as the API for this lesson.
 
 Follow these steps to set up the server:
 
