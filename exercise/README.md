@@ -1,4 +1,7 @@
-# ![React Jukebox Back-End Lab - Exercise](./assets/hero.png)
+<h1>
+  <span class="headline">Jukebox Front-End Lab</span>
+  <span class="subhead">Exercise</span>
+</h1>
 
 ## Introduction
 
@@ -6,7 +9,7 @@ Welcome to the Reactville Jukebox! In this lab, you'll create the front-end of a
 
 This lab is designed to give you practical experience in building a single-page application (SPA) using React and fetch to interact with the RESTful API you developed in the [Express API - Jukebox Back-End Lab](https://git.generalassemb.ly/modular-curriculum-all-courses/express-api-jukebox-back-end-lab). As you build out the functions for creating, reading, updating, and deleting (CRUD) tracks, you'll see how your front-end interacts seamlessly with the back-end, bringing the digital jukebox to life.
 
-## Minimum Requirements
+## Minimum requirements
 
 You have the power to decide how to implement the UI in this application. Depending on your chosen UI structure, the requirements will slightly differ. Below are the functionalities your application must support, with notes for both UI approaches and the new requirement for tracking the current track. ***Choose only one path!***:
 
@@ -20,18 +23,18 @@ You have the power to decide how to implement the UI in this application. Depend
 
 > ⚠️ Please note that this lab does not involve actual audio playback capabilities. It is designed as a UI simulation of a jukebox, focusing on the interaction with a music track database. The features implemented will simulate managing a playlist but will not play music.
 
-## Component Hierarchy
+## Component hierarchy
 
 You can choose between maintaining a single-page flow with components that appear and disappear based on user actions or implementing routing to navigate between different components representing pages. Here is an example structure for each option:
 
-### Dashboard Style
+### Dashboard style
 
 - **App**
   - **TrackList**
   - **TrackForm** (conditionally rendered)
   - **NowPlaying** (conditionally rendered)
 
-### React Router Style
+### React Router style
 
 - **App**
   - **Home** (route: `/`)

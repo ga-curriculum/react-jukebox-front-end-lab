@@ -1,8 +1,11 @@
-# ![React Jukebox Lab Front-End - Setup](./assets/hero.png)
+<h1>
+  <span class="headline">Jukebox Front-End Lab</span>
+  <span class="subhead">Setup</span>
+</h1>
 
 ## Setup
 
-Open your Terminal application and navigate to your **`~/code/ga/labs`** directory:
+Open your Terminal application and navigate to your `~/code/ga/labs` directory:
 
 ```bash
 cd ~/code/ga/labs
@@ -35,20 +38,25 @@ code .
 
 ### Configuring ESLint
 
-Before we begin, we need to adjust the ESLint configuration. Add the following rules to the `.eslintrc.cjs` file:
+Before we begin, we need to adjust the ESLint configuration. Add the indicated rules to the `rules` object in your `eslint.config.js` file:
 
-```js
-rules: {
-  'react-refresh/only-export-components': [
-    'warn',
-    { allowConstantExport: true },
-  ],
-  'react/prop-types': 'off', // add this line
-  'react/no-unescaped-entities': 'off' // add this line
-},
+```javascript
+    rules: {
+      ...js.configs.recommended.rules,
+      ...react.configs.recommended.rules,
+      ...react.configs['jsx-runtime'].rules,
+      ...reactHooks.configs.recommended.rules,
+      'react/jsx-no-target-blank': 'off',
+      'react-refresh/only-export-components': [
+        'warn',
+        { allowConstantExport: true },
+      ],
+      'react/prop-types': 'off', // add this line
+      'react/no-unescaped-entities': 'off', // add this line
+    },
 ```
 
-The first addition prevents warnings if you're not declaring types for your props (which we're not), and the second prevents warnings if you're using contractions within JSX.
+The first addition prevents warnings if you don't declare types for your props (which we're not), and the second prevents warnings if you use contractions within JSX.
 
 ### Clear `App.jsx`
 
@@ -85,7 +93,7 @@ Now setup the file and folder structure for your project:
 - Create a new folder called `components` in the `src` directory.
 - Create a new folder called `services` in the `src` directory.
 - Inside of `services` create a new file called `trackService.js`.
-- Inside of `trackService.js` create add the base URL for your API.
+- Inside of `trackService.js` add the base URL for your API.
 
 ### Using environment variables with Vite
 
@@ -121,7 +129,7 @@ git add .
 git commit -m "init commit"
 ```
 
-Make a new repository on [GitHub](https://github.com/) named react-jukebox-front-end-lab.
+Make a new repository on [GitHub](https://github.com/) named `react-jukebox-front-end-lab`.
 
 Link your local project to your remote GitHub repo:
 
@@ -138,7 +146,7 @@ Before diving into our React app development, you'll need to ensure that the Exp
 
 Follow these steps to set up the server:
 
-Open your Terminal application and navigate to your **`~/code/ga/labs/express-api-jukebox-back-end-lab`** directory:
+Open your Terminal application and navigate to your `~/code/ga/labs/express-api-jukebox-back-end-lab` directory:
 
 ```bash
 cd ~/code/ga/labs/express-api-jukebox-back-end-lab
