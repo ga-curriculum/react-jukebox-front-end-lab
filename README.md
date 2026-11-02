@@ -42,7 +42,7 @@ Estimated time to complete core lab exercise: **8 hours**
 
 ### Solution code
 
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/react-jukebox-front-end-lab-solution)
+🏁 [Solution code](https://github.com/ga-curriculum/react-jukebox-front-end-lab-solution)
 
 ### Course landing pages
 

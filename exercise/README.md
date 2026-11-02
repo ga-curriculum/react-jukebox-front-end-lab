@@ -7,7 +7,7 @@
 
 Welcome to the Reactville Jukebox! In this lab, you'll create the front-end of a collaborative, community-driven jukebox application. You have the option to design the user interface either as a dynamic dashboard with conditional rendering or by using React Router to manage different views for each function. Additionally, you'll complete the jukebox vibe by implementing a feature to display the currently playing track.
 
-This lab is designed to give you practical experience in building a single-page application (SPA) using React and fetch to interact with the RESTful API you developed in the [Express API - Jukebox Back-End Lab](https://git.generalassemb.ly/modular-curriculum-all-courses/express-api-jukebox-back-end-lab). As you build out the functions for creating, reading, updating, and deleting (CRUD) tracks, you'll see how your front-end interacts seamlessly with the back-end, bringing the digital jukebox to life.
+This lab is designed to give you practical experience in building a single-page application (SPA) using React and fetch to interact with the RESTful API you developed in the [Express API - Jukebox Back-End Lab](https://github.com/ga-curriculum/express-api-jukebox-back-end-lab). As you build out the functions for creating, reading, updating, and deleting (CRUD) tracks, you'll see how your front-end interacts seamlessly with the back-end, bringing the digital jukebox to life.
 
 ## Minimum requirements
 
